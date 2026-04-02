@@ -1,0 +1,123 @@
+.home-subheading {
+    color: #4DA9EC;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+    display: inline; 
+    padding-bottom: 2px; 
+  }
+  
+  .home-bg {
+    /* background-image: url('../../../Assets/78860289430e2548240d298c80a2262b.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px; */
+  }
+  .icon-color{
+    color:#4DA9EC !important;
+    ;
+  }
+  .h3-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: adds ... if the text is too long */
+  }
+  .home-para{
+    font-family:  'Noto Sans';
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 52px;
+    color: #4DA9EC;
+
+  }
+  .card-position {
+    position: relative;
+    overflow: visible; /* Ensure the pop-out image is visible */
+    width: 18rem;
+  }
+  
+  .card-img-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px; /* Adjust this value to control how much the image pops out */
+    z-index: auto;
+    border: 2px solid white; /* Optional: to create a border around the image */
+    overflow: visible !important;
+  }
+  
+  .card-body-custom {
+    margin-top: 60px; /* Adjust this value based on how much the image pops out */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-details {
+    width: 100%;
+    padding-top: 20px; /* Additional padding to compensate for the image pop out */
+    text-align: center;
+  }
+  
+  .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+    margin-left: auto; /* Align the salary to the right */
+  }
+  
+  .card-location, .card-title, .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .card-location {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .card-title {
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .card-button {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4DA9EC !important;
+   
+  }
+  .shadow-element {
+    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.5); 
+  }
+  .card-carousel-wrapper {
+    width: calc(100% - 20px); /* Adjust the value based on card margins */
+    overflow: visible !important;
+    position: relative;
+  }
+  
+  .card-carousel-wrapper .card-position {
+    margin: auto;
+    width: 30%;
+    position: relative;
+  }
+  .card-img-carousel{
+    position: relative !important;
+    top: 0 !important;
+  }
+  .card-margin{
+    margin-bottom: 80px !important;
+  }
+  

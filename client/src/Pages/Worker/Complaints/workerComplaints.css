@@ -1,0 +1,133 @@
+.workerview-jonreqmaincontainer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.workerjobreq-mainbox{
+    width: 1233px;
+/* min-height: 890px; */
+max-height: max-content;
+flex-shrink: 0;
+/* border-radius: 30px; */
+background: #FFF;
+box-shadow: 4.153px 4.153px 20.764px 0.519px rgba(0, 0, 0, 0.25);
+margin-top: 40px;
+border-left: 4px solid #4DA9EC;
+
+}
+
+
+.workjob-viewalert{
+   flex-shrink: 0;
+   background: #FFF;
+   /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+/* margin-top: 40px; */
+  }
+.adminmaindash-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.admindash-shrink{
+    width: 260px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 2px 50px 0px 0px;
+    background: #4DA9EC;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+letter-spacing: 0.5px;
+text-transform: capitalize;
+padding-left: 20px;
+}
+.worker-job-boxinside {
+    width: 324px;
+    /* max-height: 123px; */
+    flex-shrink: 0;
+    border-radius: 5px 5px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.70);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px; 
+    margin-top: 30px;
+}
+
+.viewmore-dashbox {
+    width: 265px; 
+    height: 33px;
+    flex-shrink: 0;
+    background: #4DA9EC;
+        align-items: center;
+    display: flex; 
+    justify-content: center; 
+    margin-top: auto; 
+    margin-left: -13px;
+    gap: 10%;
+}
+
+.viewmore-dashbox p {
+    text-align: center;
+    margin: 0; 
+    color: #FFF;
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+letter-spacing: -0.5px;
+text-transform: capitalize;
+}
+.counsellor-dashpic{
+    display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.counsellor-dashpic img{
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 48px;
+}
+.jobreq-para p{
+}
+.viewmoreadmin-accept{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+    color: white;
+
+}
+.viewmoreadmin-reject{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+    color: white;
+
+}
+.viewcounsellor-lottiereqq{
+    padding: 20px;
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+.jobreq-viewmore-dashbox{
+    min-width: 200px;
+    background-color: #4DA9EC;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

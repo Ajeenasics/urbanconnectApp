@@ -1,0 +1,88 @@
+name: Deploy to VPS - MERN Stack - Quick to Click
+
+on:
+  push:
+    branches: [deployment]
+
+env:
+  VPS_IP: ${{ secrets.VPS_IP }}
+  VPS_USER: ${{ secrets.VPS_USER }}
+  VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+  DEPLOY_DIR: /home/ubuntu/new_hybrid_projects/quick_click
+  PM2_APP_NAME: quick_click
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Frontend build (output to root dist)
+    - name: Build React frontend
+      working-directory: ./client
+      run: |
+        npm i
+        npm run build
+
+    # Backend preparation
+    - name: Prepare backend
+      working-directory: ./server
+      run: |
+        npm i
+
+    # Create deployment package with proper .env handling
+    - name: Create deployment structure
+      run: |
+        mkdir -p deploy
+        
+        # Copy frontend build files directly to deploy root
+        cp -r client/build/* deploy/
+        
+        # Create backend directory and copy files
+        mkdir -p deploy/backend
+        cp -r server/* deploy/backend/
+        rm -rf deploy/backend/node_modules
+
+
+    # Compress for transfer
+    - name: Compress deployment package
+      run: tar -czvf quick_click.tar.gz -C deploy .
+
+    # Deploy to VPS
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.VPS_SSH_KEY }}
+        known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+
+    - name: Transfer files to VPS
+      run: |
+        scp -o StrictHostKeyChecking=no quick_click.tar.gz ${{ env.VPS_USER }}@${{ env.VPS_IP }}:/tmp/
+
+    - name: SSH and deploy on VPS
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ env.VPS_USER }}@${{ env.VPS_IP }} << EOF
+        # Create directory if not exists
+        mkdir -p ${{ env.DEPLOY_DIR }}
+        
+        # Clear existing files (except uploads if needed)
+        rm -rf ${{ env.DEPLOY_DIR }}/*
+        
+        # Extract files
+        tar -xzvf /tmp/quick_click.tar.gz -C ${{ env.DEPLOY_DIR }}
+
+        # Ensure uploads directory exists with proper permissions
+        mkdir -p ${{ env.DEPLOY_DIR }}/backend/uploads
+        chmod -R 755 ${{ env.DEPLOY_DIR }}/backend/uploads
+
+        # Install backend dependencies
+        cd ${{ env.DEPLOY_DIR }}/backend
+        npm install --omit=dev
+
+        # Restart application with PM2
+        pm2 delete ${{ env.PM2_APP_NAME }} || true
+        pm2 start index.js --name "${{ env.PM2_APP_NAME }}"
+        pm2 save
+        EOF

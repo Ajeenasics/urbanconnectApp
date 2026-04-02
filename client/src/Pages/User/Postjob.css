@@ -1,0 +1,98 @@
+.postjob-maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.postjob-maincontainermainbox{
+  width:  fit-content;
+  height: 496px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #eae6e6;
+margin-left: -30px;
+
+}
+.postjob-maincontainermainboxtop{
+    width: 500px;
+height: 71px;
+flex-shrink: 0;
+border-radius: 25px 25px 0px 0px;
+background: #3D9AE0;
+text-align: center;
+color: #FFF;
+font-family: "Noto Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 20px;
+}
+.postjob-maininputs{
+    padding-top: 30px;
+}
+.postjob-maininputs p{
+    color: #3D9AE0;
+font-family: "Noto Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 30px;
+}
+.postjob-maininputs input{
+    width: 478px;
+height: 42px;
+flex-shrink: 0;width: 478px;
+height: 42px;
+flex-shrink: 0;border-radius: 12px;
+border: 0.604px solid #C6C6C6;
+background: #FFF;
+}
+
+.postjob-maininputs select{
+    width: 478px;
+height: 42px;
+flex-shrink: 0;width: 478px;
+height: 42px;
+flex-shrink: 0;border-radius: 12px;
+border: 0.604px solid #C6C6C6;
+background: #FFF;
+}
+
+.postjob-maininputs textarea{
+    width: 478px;
+    height: 107px;
+    flex-shrink: 0;border-radius: 12px;
+border: 0.604px solid #C6C6C6;
+background: #FFF;
+}
+.postjob-maininputsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.postjob-maininputsbutton button{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 89px;
+height: 31px;
+flex-shrink: 0;width: 89px;
+height: 31px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #3D9AE0;
+border: none;
+margin-top: 20px;
+}
+.postjob-maininputsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

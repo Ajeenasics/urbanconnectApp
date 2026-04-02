@@ -1,0 +1,12 @@
+.jobreq-singlebox{
+    width: 450px;
+   min-height: 470px;
+   max-height: max-content;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.jobreq-singlemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

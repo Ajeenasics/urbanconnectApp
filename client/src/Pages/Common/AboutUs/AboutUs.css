@@ -1,0 +1,52 @@
+/* AboutUs Hero */
+
+.about-home-hero {
+  background-image: url('../../../Assets/Firefly 20240130134039 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 753.6px;
+}
+
+
+.about-hero-heading {
+  color: #FFF;
+  font-family: "Noto Sans";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  width: 554.475px;
+  height: 211.09px;
+  flex-shrink: 0;
+}
+
+.about-p{
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+}
+
+/* AboutUs What we do */
+
+.aboutwhatwedo_img{
+    width: 100%;
+}
+
+/* AboutUs Whats new */
+
+.whatnew_mainheading {
+    color: #4DA9EC;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+  
+  }
+
+  /* AboutUs Our Commitments */
+
+.aboutourComit_img{
+    width: 100%;
+}

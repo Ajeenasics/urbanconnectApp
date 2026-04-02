@@ -1,0 +1,79 @@
+.admindash-sidebarmain{
+    width: 267px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-shrink: 0;
+    background: #4DA9EC;
+}
+.admindash-buttonshape{
+    width: calc(100% - 40px);
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: #4DA9EC;
+font-family: "Noto Sans";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.admindash-sidebarmain span{
+    padding-left: 10px;
+}
+.admindash-icons span{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 10px;
+}
+.admindash-icons{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.admindash-sidebarmain .dropdown-content {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .admindash-sidebarmain .dropdown-item {
+    padding: 5px 0;
+    color: #4DA9EC;
+font-family: "Noto Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 30px;
+  }
+  
+  .admindash-sidebarmain .dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #4DA9EC;
+
+  }
+  
+  .admindash-icons div {
+    align-items: center;
+  }
+  
+  .admindash-icons div span {
+    margin-left: 10px;
+  }
+  
+  .admindash-icons div svg {
+    margin-left: auto;
+  }
+  

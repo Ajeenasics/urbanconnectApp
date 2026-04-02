@@ -1,0 +1,179 @@
+.worker-recentjob-head p{
+    color: #4DA9EC;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+}
+.bestcandidate-head h6{
+    color: #4DA9EC;
+    font-family: "Noto Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 200%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.bestcandidate-head{
+    gap: 0px;
+    line-height: 200%; /* 58px */
+    padding-top: 30px;
+}
+.recentjob-userbox{
+    width: 100%;
+    height: 211px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #C6C6C6;
+    border-top: none;
+    background: #FFF;
+    box-shadow: 0px 1.69px 1.69px 0px rgba(0, 0, 0, 0.25);
+}
+
+.recentjob-row{
+    display: flex;
+    gap:15px;
+}
+.recentjob-userboximage{
+    margin-top: -60px;  
+    width: 158px;
+height: 138px;
+flex-shrink: 0;
+border-radius: 5px;
+}
+.bestcandidate-userboxcontent h5{
+    padding-left: 20px;
+}
+.bestcandidate-userboxcontent p{
+    padding-left: 20px;
+    color: #000;
+font-family: "Noto Sans";
+font-size: 12.763px;
+font-style: normal;
+font-weight: 400;
+display: -webkit-box;
+-webkit-line-clamp: 3; 
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: normal;
+
+
+}
+.recentjob-userbutton button{
+    display: flex;
+width: 138px;
+height: 37.846px;
+padding: 4.491px;
+justify-content: center;
+align-items: center;
+gap: 4.491px;
+flex-shrink: 0;
+border-radius: 4.491px;
+border: none;
+background: #4DA9EC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 15.677px;
+font-style: normal;
+font-weight: 500;
+margin-top: 30px;
+}
+.bestcandidate-userboxhead6 h6{
+    color: #000;
+    text-align: end;
+font-family: "Noto Sans";
+font-size: 9.3px;
+font-style: normal;
+font-weight: 700;
+line-height: 200%; 
+}
+.bestcandidate-userboximage p{
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #000;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 200%; 
+}
+.bestcandidate-userboxbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bestcandidate-userboxbutton button{
+    display: flex;
+width: 194px;
+height: 42.204px;
+padding: 6.807px;
+justify-content: center;
+align-items: center;
+gap: 6.807px;
+flex-shrink: 0;
+border-radius: 6.807px;
+background: #4DA9EC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: none;
+color: #FFF;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 17.698px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 35.396px */
+}
+.bestcandidate-userbottommain{
+    width: 1267px;
+height: 161px;
+background-color: #8D8B8B;
+margin: 40px;
+
+}
+.bestcandidate-userbottommain p{
+    text-align: center;
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+padding-top: 20px;
+}
+.bestcandidate-userbottonbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bestcandidate-userbottonbtm div{
+    border-radius: 3.918px;
+border: 1.144px solid #FFF;
+background: #8D8B8B;
+box-shadow: 0px 2.288px 2.288px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+width: 144.393px;
+height: 28.6px;
+padding: 3.918px;
+justify-content: center;
+align-items: center;
+gap: 3.918px;
+flex-shrink: 0;
+color: #FFF;
+font-family: "Noto Sans";
+font-size: 13.728px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 20px;
+}

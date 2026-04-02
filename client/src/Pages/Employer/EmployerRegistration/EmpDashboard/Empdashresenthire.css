@@ -1,0 +1,155 @@
+.container-head p{
+    text-align: center;
+    color: #4DA9EC;
+font-family: "Noto Sans";
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 30px;
+}
+/* .job-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .job-card-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .job-card-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .job-card-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .job-card-fulltime {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .job-card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .job-card-salary {
+    margin: 10px 0;
+    color: #777;
+  }
+  
+  .job-card-company,
+  .job-card-email {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .job-card-apply {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s;
+  }
+  
+  .job-card-apply:hover {
+    background-color: #0056b3;
+  } */
+  .viewhiring-boxmain{
+    width: 622px;
+height: 208px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .viewhiring-main{
+    padding: 60px;
+  }
+  .viewhiring-boximage img{
+    margin-left: 30px;
+    margin-top: -40px;
+  }
+  .viewhiring-boxcontent p{
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #000;
+font-family: "Noto Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%;
+  }
+  .viewhiring-boxcontent span{
+    padding-left: 40px;
+    color: #000;
+    /* text-align: center; */
+    font-family: "Noto Sans";
+    font-size: 17.698px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 200%; 
+  }
+  .fulltime-secondinp{
+    width: 92px;
+height: 40px;
+border-radius: 15px;
+background: #909090;
+text-align: center;
+padding-top: 7px;
+  }
+  .fulltime-buttonmain{
+    border-radius: 6.807px;
+background: #4DA9EC;
+display: flex;
+width: 194px;
+height: 42.204px;
+padding: 6.807px;
+justify-content: center;
+align-items: center;
+gap: 6.807px;
+flex-shrink: 0;
+border: none;
+color: white;
+  }
+
+  .container-bottombutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .container-bottombutton button{
+    border-radius: 6.807px;
+background: #4DA9EC;
+display: flex;
+width: 194px;
+height: 42.204px;
+padding: 6.807px;
+justify-content: center;
+align-items: center;
+gap: 6.807px;
+flex-shrink: 0;
+border: none;
+color: white;
+  }

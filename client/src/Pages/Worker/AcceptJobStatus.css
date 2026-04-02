@@ -1,0 +1,20 @@
+.workernav_2_searchbtn{
+    background-color: #3D9AE0;
+    border: 1px solid #fff;
+    border-left: none;
+    width: 50px;
+    height: 5vh;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.workeracceptjobstatus_empbtn{
+    background-color: #3D9AE0;
+    border: 1px solid #fff;
+    border-left: none;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    border-radius:  20px ;
+
+}

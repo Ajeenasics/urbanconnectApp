@@ -1,0 +1,93 @@
+.user-register-bg {
+    background-image: url('../../../Assets/image 1.png'), url('../../../Assets/Firefly 20240130134039 1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right top;
+    background-size: auto, cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-register-container {
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.user-register-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-register-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon-bg {
+    width: 80px;
+    height: 80px;
+    background-color: #7BBAEA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.upload-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.upload-icon input {
+    display: none;
+}
+
+.user-register-button {
+    background-color: #1A728E !important;
+}
+
+.user-register-button svg {
+    margin-left: 5px;
+}
+
+.login-link {
+    text-align: center;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+}
+
+.user_reg_login {
+    color: rgb(247, 165, 12);
+}
+

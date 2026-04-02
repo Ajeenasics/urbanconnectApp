@@ -1,0 +1,41 @@
+.bg-primary-custom {
+    background-color: #4DA9EC !important;
+}
+
+.text-light-custom {
+    color: #FFF !important;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-brand-text {
+    font-family: 'Elsie Swash Caps';
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.navbar-icon {
+    margin-bottom: 5px; 
+    font-size: 30px; 
+}
+
+.navbar-links .nav-link {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
+.navbar-imgicon{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbarli-content{
+    color: white;
+    background-color: rgb(53, 145, 192);
+    font-weight: 800;
+}

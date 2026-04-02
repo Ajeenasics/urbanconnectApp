@@ -1,0 +1,15 @@
+.viewworkdetails{
+    color: rgb(29, 184, 236);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.workerreg-complaintbtn{
+    width: 180px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+    color: white;
+
+}

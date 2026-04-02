@@ -1,0 +1,17 @@
+.viewuseradmin-view{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+    color: white;
+
+}
+.viewmoreadmin1-reject{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}

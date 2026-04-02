@@ -1,0 +1,70 @@
+.postjoblist-card {
+    width: 420px;
+    height: auto;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+    box-shadow: 0px 4px 6.9px 0px #00000040;
+
+  }
+  
+  .postjoblist-card-image {
+    background-color: rgb(236, 236, 236);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: -60px;
+    
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+
+  .postjoblist-img{
+    width:130px
+  }
+  
+  .postjoblist-name {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding-left: 170px;
+    margin-top: -70px;
+
+  }
+  
+  
+
+  .postjoblist-content{
+    margin-bottom: -30px;
+  }
+  
+  .postjoblist-heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    text-align: justify;
+  }
+  
+  
+  .postjoblist-requestbtndiv{
+    text-align: center;
+    padding-top: 120px;
+
+  }
+  .postjoblist-requestbtn{
+    background: #00B0F0;
+    color: #fff;
+    width: 130px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  .postjoblist-place{
+    margin-left: 30px;
+  }
+  
+  
+  

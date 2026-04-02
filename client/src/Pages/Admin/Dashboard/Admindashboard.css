@@ -1,0 +1,88 @@
+.admindash-main{
+    width: 100%;
+    padding: 10px;
+    color: #4DA9EC;
+font-family: "Noto Sans";
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.admin-dash-usercount{
+    padding: 40px;
+}
+.ariel-class1{
+    color: #0a69ad;
+    font-size: 12px;
+    
+}
+.admin-dash-functioncount1{
+    width: 167.606px;
+height: 82.936px;
+flex-shrink: 0;
+border-radius: 15.861px;
+background: #8978FF;
+}
+.admin-dash-functioncount2{
+    width: 167.606px;
+height: 82.936px;
+flex-shrink: 0;
+border-radius: 15.861px;
+background: #FAAE94;}
+
+.admin-dash-functioncount3{
+    width: 167.606px;
+height: 82.936px;
+flex-shrink: 0;
+border-radius: 15.861px;
+background: #5BEC7B;}
+
+.admin-dash-functioncount4{
+    width: 167.606px;
+height: 82.936px;
+flex-shrink: 0;
+border-radius: 15.861px;
+background: #FFA3DB;}
+
+.admin-dash-function1image img{
+    margin-left: -28px;
+    margin-top: 4px;
+}
+.admin-dash-function1content p{
+    color: #FFF;
+    font-family: "Noto Sans";
+    font-size: 16.918px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+}
+.admin-dash-functionbox{
+    margin: 0px;
+}
+.admindash-seconfboxuser{
+    width: 148px;
+height: 83px;
+flex-shrink: 0;
+border-radius: 10.557px;
+background: #84A7B1;
+margin: 20px;
+margin-top: 20px;
+}
+/* .admindash-seconfboxuserrow{
+    margin-top: 30px;
+} */
+
+.admindash-seconfboxuser img{
+    margin-left: -20px;
+    margin-top: 5px;
+    
+}
+.admindash-seconfboxuser{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 19.707px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

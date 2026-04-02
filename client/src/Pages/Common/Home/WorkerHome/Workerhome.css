@@ -1,0 +1,136 @@
+.workerhome-main{
+
+}
+.workerhome-boxfirst{
+    width: 430px;
+height: 340px;
+flex-shrink: 0;
+border-radius: 12.743px;
+background: linear-gradient(149deg, #79B3FF 7.34%, #25374E 100%);
+}
+/* .customerhome-boxfirstrow{
+    gap: 35%;              
+} */
+.workerhome-boxfirst img{
+    width: 121.699px;
+height: 121.699px;
+margin-left: 25px;
+margin-top: 20px;
+border-radius: 50%;
+}
+.workerhome-boxfirstrowimg1{
+    margin: 0;
+}
+.workerhome-boxfirstrowimg1 img{
+    margin-left: 300px;
+
+}
+.workerhome-boxfirstrowimg2 img{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.workerhome-boxfirstrowimg3{
+    margin-top: -30px;
+
+}
+.workerhomeimdside-box1{
+    width: 122.336px;
+height: 53.522px;
+flex-shrink: 0;
+border-radius: 19.115px;
+background: #FFF;
+box-shadow: 0px 0px 15.929px 0.637px #4DA9EC;
+text-align: center;
+color: #646363;
+font-family: "Noto Sans";
+font-size: 14.018px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+margin-top: 20px;
+margin-left: -20px;
+}
+.workerhomeimdside-box1 span{
+    color: #4DA9EC;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 21.027px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.workerhomeimdside-box2{
+    width: 122.336px;
+    height: 53.522px;
+    flex-shrink: 0;
+    border-radius: 19.115px;
+    background: #FFF;
+    box-shadow: 0px 0px 15.929px 0.637px #4DA9EC;
+    text-align: center;
+    color: #646363;
+    font-family: "Noto Sans";
+    font-size: 14.018px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 70px;
+margin-left: -40px;
+
+}
+.workerhomeimdside-box2 span{
+    color: #4DA9EC;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 21.027px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.workerhomeimdside-box3{
+    width: 122.336px;
+    height: 53.522px;
+    flex-shrink: 0;
+    border-radius: 19.115px;
+    background: #FFF;
+    box-shadow: 0px 0px 15.929px 0.637px #4DA9EC;
+    text-align: center;
+    color: #646363;
+    font-family: "Noto Sans";
+    font-size: 14.018px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 70px;
+    margin-left: -10px;
+     
+}
+.workerhomeimdside-box3 span{
+    color: #4DA9EC;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 21.027px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.workerhome-secondcolmain{
+    padding-top: 10%;
+}
+.workerhome-secondcolmain p{
+    text-align: center;
+    color: #000;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.workerhome-secondcolmain span{
+    color: #4DA9EC;
+font-family: "Noto Sans";
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

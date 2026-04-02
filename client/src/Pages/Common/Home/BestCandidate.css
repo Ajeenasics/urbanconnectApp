@@ -1,0 +1,148 @@
+.bestcandidate-head p {
+    color: #4DA9EC;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bestcandidate-head h6 {
+    color: #4DA9EC;
+    font-family: "Noto Sans";
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.bestcandidate-head {
+    padding-top: 30px;
+}
+
+.bestcandidate-userbox {
+    width: 100%;
+    max-width: 380px;
+    min-height: 250px;
+    border-radius: 8px;
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.bestcandidate-userbox:hover {
+    transform: translateY(-5px);
+}
+
+.bestcandidate-userboximage img {
+    margin-top: -60px;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.bestcandidate-userboxcontent h5 {
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.bestcandidate-userboxcontent p {
+    padding-left: 0;
+    color: #666;
+    font-family: "Noto Sans";
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.bestcandidate-userbutton button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: #4DA9EC;
+    color: #FFF;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.bestcandidate-userboxhead6 {
+    color: #000;
+    text-align: end;
+    font-family: "Noto Sans";
+    font-size: 0.8rem;
+    font-weight: 700;
+    flex-grow: 1;
+}
+
+.bestcandidate-userboximage p {
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.bestcandidate-userboxbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.bestcandidate-userboxbutton button {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    background: #4DA9EC;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bestcandidate-userbottommain {
+    width: 100%;
+    min-height: 160px;
+    background-color: #4DA9EC;
+    border-radius: 12px;
+    margin: 40px 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.bestcandidate-userbottommain p {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.bestcandidate-userbottonbtm {
+    display: flex;
+    justify-content: center;
+}
+
+.bestcandidate-userbottonbtm div {
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    padding: 8px 25px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.bestcandidate-userbottonbtm div:hover {
+    background: #fff;
+    color: #4DA9EC;
+}

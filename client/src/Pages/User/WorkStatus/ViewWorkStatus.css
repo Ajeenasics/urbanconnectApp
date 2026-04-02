@@ -1,0 +1,131 @@
+.viewworkstatus-button,
+.viewworkstatus-input,
+.viewworkstatus-select,
+.viewworkstatus-textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.viewworkstatus-modal-container {
+  height: 480px;
+  width: 500px;
+  margin-right: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 600px) {
+  .viewworkstatus-modal-container {
+    width: 90%;
+  }
+}
+
+.viewworkstatus-modal-container-header {
+  padding: 16px 32px;
+  background-color: #3D9AE0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.viewworkstatus-modal-container-title {
+  display: flex;
+  color: #fff;  
+  line-height: 1;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+
+
+.viewworkstatus-modal-container-body {
+  padding: 24px 32px 21px;
+}
+
+.editworkstatus-workdetails{
+  width:418px
+}
+
+
+
+.viewworkstatus-modal-container-footer {
+  padding: 20px 32px;
+  /* display: flex; */
+  align-items: center;
+  border-top: 1px solid #ddd;
+  position: relative;
+  text-align: center;
+}
+
+.viewworkstatus-modal-container-footer:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -51px;
+  left: 24px;
+  right: 24px;
+  height: 50px;
+  flex-shrink: 0;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.75), transparent);
+  pointer-events: none;
+}
+
+.viewworkstatus-button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.viewworkstatus-button.is-ghost:hover, .button.is-ghost:focus {
+  background-color: #dfdad7;
+}
+
+.viewworkstatus-button.is-primary {
+  background-color: #750550;
+  color: #fff;
+}
+
+.button.is-primary:hover, .button.is-primary:focus {
+  background-color: #4a0433;
+}
+
+.viewworkstatus-icon-button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.15s ease;
+}
+
+.viewworkstatus-icon-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.viewworkstatus-label{
+   color: #3D9AE0; 
+}
+
+.viewworkstatus-status{
+    color: green;
+}
+

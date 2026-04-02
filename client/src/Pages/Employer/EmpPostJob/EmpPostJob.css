@@ -1,0 +1,108 @@
+.emppostjob-maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+.emppostjob-maincontainermainbox{
+    width: 559px;
+height: auto;
+flex-shrink: 0;
+border-radius: 25px;
+background: #eae6e6;
+
+}
+.emppostjob-maincontainermainboxtop{
+    width: 559px;
+height: 71px;
+flex-shrink: 0;
+border-radius: 25px 25px 0px 0px;
+background: #3D9AE0;
+text-align: center;
+color: #FFF;
+font-family: "Noto Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 20px;
+}
+.emppostjob-maininputs{
+    padding-top: 30px;
+}
+.emppostjob-maininputs p{
+    color: #3D9AE0;
+font-family: "Noto Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 30px;
+margin-top: 10px;
+}
+.emppostjob-maininputs input{
+    width: 478px;
+height: 42px;
+flex-shrink: 0;width: 478px;
+height: 42px;
+flex-shrink: 0;border-radius: 12px;
+border: 0.604px solid #C6C6C6;
+background: #FFF;
+padding-left: 20px;
+outline: none;
+}
+
+.emppostjob-maininputs select{
+    width: 478px;
+height: 42px;
+flex-shrink: 0;width: 478px;
+height: 42px;
+flex-shrink: 0;border-radius: 12px;
+border: 0.604px solid #C6C6C6;
+background: #FFF;
+padding-left: 20px;
+outline: none;
+
+
+}
+
+.emppostjob-maininputs textarea{
+    width: 478px;
+    height: 107px;
+    flex-shrink: 0;border-radius: 12px;
+border: 0.604px solid #C6C6C6;
+background: #FFF;
+padding-left: 20px;
+padding-top: 10px;
+outline: none;
+
+}
+.emppostjob-maininputsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.emppostjob-maininputsbutton button{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 89px;
+height: 31px;
+flex-shrink: 0;width: 89px;
+height: 31px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #3D9AE0;
+border: none;
+margin-top: 20px;
+}
+.emppostjob-maininputsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
