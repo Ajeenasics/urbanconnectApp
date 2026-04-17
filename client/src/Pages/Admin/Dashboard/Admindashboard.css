@@ -16,73 +16,47 @@ line-height: normal;
     font-size: 12px;
     
 }
-.admin-dash-functioncount1{
-    width: 167.606px;
-height: 82.936px;
-flex-shrink: 0;
-border-radius: 15.861px;
-background: #8978FF;
+.admin-dash-functioncount1,
+.admin-dash-functioncount2,
+.admin-dash-functioncount3,
+.admin-dash-functioncount4 {
+    width: 100%;
+    min-height: 82.936px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 15.861px;
+    padding: 10px;
 }
-.admin-dash-functioncount2{
-    width: 167.606px;
-height: 82.936px;
-flex-shrink: 0;
-border-radius: 15.861px;
-background: #FAAE94;}
 
-.admin-dash-functioncount3{
-    width: 167.606px;
-height: 82.936px;
-flex-shrink: 0;
-border-radius: 15.861px;
-background: #5BEC7B;}
+.admin-dash-functioncount1 { background: #8978FF; }
+.admin-dash-functioncount2 { background: #FAAE94; }
+.admin-dash-functioncount3 { background: #5BEC7B; }
+.admin-dash-functioncount4 { background: #FFA3DB; }
 
-.admin-dash-functioncount4{
-    width: 167.606px;
-height: 82.936px;
-flex-shrink: 0;
-border-radius: 15.861px;
-background: #FFA3DB;}
-
-.admin-dash-function1image img{
-    margin-left: -28px;
-    margin-top: 4px;
-}
-.admin-dash-function1content p{
+.admindash-seconfboxuser {
+    width: 100%;
+    min-height: 83px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10.557px;
+    background: #84A7B1;
+    margin: 10px auto;
+    padding: 15px;
     color: #FFF;
     font-family: "Noto Sans";
-    font-size: 16.918px;
+    font-size: 19.707px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
-    padding-top: 20px;
 }
-.admin-dash-functionbox{
-    margin: 0px;
-}
-.admindash-seconfboxuser{
-    width: 148px;
-height: 83px;
-flex-shrink: 0;
-border-radius: 10.557px;
-background: #84A7B1;
-margin: 20px;
-margin-top: 20px;
-}
-/* .admindash-seconfboxuserrow{
-    margin-top: 30px;
-} */
 
-.admindash-seconfboxuser img{
-    margin-left: -20px;
-    margin-top: 5px;
+@media (max-width: 768px) {
+    .admin-dash-usercount {
+        padding: 10px;
+    }
     
-}
-.admindash-seconfboxuser{
-    color: #FFF;
-font-family: "Noto Sans";
-font-size: 19.707px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    .admindash-main {
+        font-size: 18px;
+        text-align: center;
+    }
 }

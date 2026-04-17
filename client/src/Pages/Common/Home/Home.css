@@ -36,7 +36,9 @@
   .card-position {
     position: relative;
     overflow: visible; /* Ensure the pop-out image is visible */
-    width: 18rem;
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
   }
   
   .card-img-circle {
@@ -103,15 +105,30 @@
     box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.5); 
   }
   .card-carousel-wrapper {
-    width: calc(100% - 20px); /* Adjust the value based on card margins */
+    width: 100%; /* Adjust the value based on card margins */
     overflow: visible !important;
     position: relative;
   }
   
   .card-carousel-wrapper .card-position {
     margin: auto;
-    width: 30%;
+    width: 100%;
+    max-width: 350px;
     position: relative;
+  }
+
+  @media (max-width: 768px) {
+    .home-subheading {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .home-para {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .h3-nowrap {
+        white-space: normal;
+    }
   }
   .card-img-carousel{
     position: relative !important;

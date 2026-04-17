@@ -83,7 +83,8 @@ function ViewPostJobsList() {
           <div className="row d-flex" style={{ marginTop: "30px" }}>
             {data && data.length ? (
               data.slice().reverse().map((a) => (
-                <div className="col-3 userview-joblist-boxinside1" key={a._id}>
+                <div className="col-lg-4 col-md-6 col-12" key={a._id}>
+                  <div className="userview-joblist-boxinside1">
                   <div className="row mt-3">
                     <div className="col-5 userview-head">Work </div>
                     <div className="col-7"><p>: {a?.jobname}</p></div>
@@ -104,6 +105,7 @@ function ViewPostJobsList() {
                            
                   </div>
                 </div>
+              </div>
               ))
             ) : (
               <div className="viewcounsellor-lottiereqq">No request found</div>

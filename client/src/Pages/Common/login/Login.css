@@ -3,6 +3,13 @@
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 95%;
     max-width: 400px;
+    margin: 2rem auto !important;
+}
+
+@media (max-width: 576px) {
+    .user-login-container {
+        padding: 20px;
+    }
 }

@@ -7,13 +7,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;
 }
 
 .user-register-container {
     padding: 40px;
     border-radius: 8px;
-    width: 100%;
+    width: 95%;
     max-width: 900px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .user-register-bg {
+        background-image: url('../../../Assets/Firefly 20240130134039 1.png');
+        background-position: center;
+    }
+    .user-register-container {
+        padding: 20px;
+    }
 }
 
 .user-register-header {

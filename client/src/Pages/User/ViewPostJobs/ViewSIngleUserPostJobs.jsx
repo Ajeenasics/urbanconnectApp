@@ -81,6 +81,17 @@ function ViewSIngleUserPostJobs({close, postjob_id}) {
                 {data?.workdetails}
               </Col>
             </Row>
+            <Row className="user-info-row">
+              <Col className="user-info-label" md={4} style={{color: 'green', fontWeight: 'bold'}}>
+                Predicted Cost
+              </Col>
+              <Col className="user-info-coln" md={1}>
+                :
+              </Col>
+              <Col className="user-info-value" md={7}  style={{color: 'green', fontWeight: 'bold', whiteSpace: 'pre-wrap',wordBreak:"break-word" }}>
+                {data?.aiprice || "Pending AI Prediction"}
+              </Col>
+            </Row>
             
             
             

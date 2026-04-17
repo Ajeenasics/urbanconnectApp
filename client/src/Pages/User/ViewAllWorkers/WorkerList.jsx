@@ -128,7 +128,7 @@ function WorkerList() {
           <div className="row mt-5">
             {filteredWorkers.length > 0 ? (
               filteredWorkers.slice(0, 4).map((worker) => (
-                <div className="col-4" key={worker._id}>
+                <div className="col-lg-4 col-md-6 col-12 mb-4" key={worker._id}>
                   <div className="bestcandidate-userbox">
                     <div className="bestcandidate-userboximage d-flex">
                       <img

@@ -12,9 +12,9 @@ import WorkStatus from './Workstatus/WorkStatus'
 
 function Adminmain({data}) {
   return (
-    <div className='d-flex' style={{ height: '100vh', width: '100%', overflow: 'hidden' }}>
+    <div className='admin-main-wrapper d-flex flex-column flex-lg-row' style={{ minHeight: '100vh', width: '100%' }}>
     <AdminSidebar/>
-    <div className='flex-grow-1' style={{ overflowY: 'auto', overflowX: 'auto', maxWidth: 'calc(100% - 30px)' }}>
+    <div className='flex-grow-1 admin-content-area' style={{ overflowY: 'auto', overflowX: 'auto' }}>
     {
         data==="admin-workerreq"?(<Workerreq/>):
         data==="admin-employerreq"?(<Employerreq/>):

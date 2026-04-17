@@ -15,3 +15,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Global Responsive Fixes */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container, .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Fix for small screens to prevent content overflow */
+@media (max-width: 768px) {
+    .col-9, .col-10, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .ms-2, .ms-3, .ms-4, .ms-5 {
+        margin-left: 0 !important;
+    }
+    
+    .m-5 {
+        margin: 1rem !important;
+    }
+
+    /* Container adjustments */
+    .workerreq-mainbox {
+        margin: 10px auto !important;
+    }
+
+    .admin-alert-boxinside {
+        margin: 10px auto !important;
+    }
+}

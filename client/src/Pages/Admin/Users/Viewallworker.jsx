@@ -53,6 +53,7 @@ function Viewallworker() {
                     <div className="admindash-shrink">Workers</div>
                     <div className="row d-flex ms-2" style={{ marginTop: "30px" }}>
                         {cust && cust.length ? (
+                    <div className="table-responsive">
                             <table className="table">
                                 <thead>
                                     <tr>
@@ -88,6 +89,7 @@ function Viewallworker() {
                                     ))}
                                 </tbody>
                             </table>
+                        </div>
                         ) : (
                             <div className="viewcounsellor-lottiereqq">No request found</div>
                         )}

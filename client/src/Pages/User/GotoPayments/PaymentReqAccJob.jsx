@@ -1,4 +1,4 @@
-import {  useState    } from 'react'
+import React, { useState, useEffect } from 'react'
 import './PaymentReqAccJob.css'
 import {useNavigate} from 'react-router-dom'
 import axiosInstance from '../../Constants/Baseurl';
@@ -24,6 +24,18 @@ function PaymentReqAccJob({close,jobid,approvalid}) {
         payment:"",
         otp:""
     });
+
+    const [jobDetails, setJobDetails] = useState({});
+    
+    useEffect(() => {
+        if(jobid) {
+            axiosInstance.post(`viewjobreqsbyid/${jobid}`)
+            .then(result => {
+                setJobDetails(result.data.data);
+            })
+            .catch(err => console.log(err));
+        }
+    }, [jobid]);
     const handleChange = (event) => {
         const { name, value } = event.target;
         setWorkStatusData((prevData) => ({
@@ -133,6 +145,16 @@ const handleSubmit = async (e) => {
 		<section className="worker-viewworkstatus-modal-container-body ">
         
           <div>
+            {jobDetails?.aiprice && (
+             <div className='row mt-2 mb-3'>
+                 <div className='col'>
+                     <p style={{color: 'green'}}><b>AI Predicted Rate :</b></p>
+                 </div>
+                 <div className='col'>
+                      <p style={{color: 'green', fontWeight: 'bold'}}>{jobDetails.aiprice}</p>
+                 </div>
+             </div>
+            )}
             <div className='row mt-2'>
                 <div className='col'>
                     <p><b>Payment :</b></p>

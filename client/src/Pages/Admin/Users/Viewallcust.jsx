@@ -52,6 +52,7 @@ function Viewallcust() {
                     <div className="admindash-shrink">Customers</div>
                     <div className="row d-flex ms-2" style={{ marginTop: "30px" }}>
                         {cust && cust.length ? (
+                    <div className="table-responsive">
                             <table className="table">
                                 <thead>
                                     <tr>
@@ -85,6 +86,7 @@ function Viewallcust() {
                                     ))}
                                 </tbody>
                             </table>
+                        </div>
                         ) : (
                             <div className="viewcounsellor-lottiereqq">No request found</div>
                         )}

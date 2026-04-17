@@ -1,104 +1,95 @@
-.emppostjob-maincontainer{
+.emppostjob-maincontainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 60px; */
-}
-.emppostjob-maincontainermainbox{
-    width: 559px;
-height: auto;
-flex-shrink: 0;
-border-radius: 25px;
-background: #eae6e6;
-
-}
-.emppostjob-maincontainermainboxtop{
-    width: 559px;
-height: 71px;
-flex-shrink: 0;
-border-radius: 25px 25px 0px 0px;
-background: #3D9AE0;
-text-align: center;
-color: #FFF;
-font-family: "Noto Sans";
-font-size: 22px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-top: 20px;
-}
-.emppostjob-maininputs{
-    padding-top: 30px;
-}
-.emppostjob-maininputs p{
-    color: #3D9AE0;
-font-family: "Noto Sans";
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-left: 30px;
-margin-top: 10px;
-}
-.emppostjob-maininputs input{
-    width: 478px;
-height: 42px;
-flex-shrink: 0;width: 478px;
-height: 42px;
-flex-shrink: 0;border-radius: 12px;
-border: 0.604px solid #C6C6C6;
-background: #FFF;
-padding-left: 20px;
-outline: none;
+    padding: 20px 15px;
 }
 
-.emppostjob-maininputs select{
-    width: 478px;
-height: 42px;
-flex-shrink: 0;width: 478px;
-height: 42px;
-flex-shrink: 0;border-radius: 12px;
-border: 0.604px solid #C6C6C6;
-background: #FFF;
-padding-left: 20px;
-outline: none;
-
-
+.emppostjob-maincontainermainbox {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #eae6e6;
+    padding-bottom: 30px;
 }
 
-.emppostjob-maininputs textarea{
-    width: 478px;
-    height: 107px;
-    flex-shrink: 0;border-radius: 12px;
-border: 0.604px solid #C6C6C6;
-background: #FFF;
-padding-left: 20px;
-padding-top: 10px;
-outline: none;
-
-}
-.emppostjob-maininputsbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
-.emppostjob-maininputsbutton button{
+.emppostjob-maincontainermainboxtop {
+    width: 100%;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 25px 25px 0px 0px;
+    background: #3D9AE0;
+    text-align: center;
     color: #FFF;
-font-family: "Noto Sans";
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-width: 89px;
-height: 31px;
-flex-shrink: 0;width: 89px;
-height: 31px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #3D9AE0;
-border: none;
-margin-top: 20px;
+    font-family: "Noto Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.emppostjob-maininputs {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.emppostjob-maininputs p {
+    color: #3D9AE0;
+    font-family: "Noto Sans";
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.emppostjob-maininputs input,
+.emppostjob-maininputs select,
+.emppostjob-maininputs textarea {
+    width: 100%;
+    height: 42px;
+    border-radius: 12px;
+    border: 0.604px solid #C6C6C6;
+    background: #FFF;
+    padding-left: 20px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.emppostjob-maininputs textarea {
+    height: 107px;
+    padding-top: 10px;
+}
+
+.emppostjob-maininputsbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emppostjob-maininputsbutton button {
+    color: #FFF;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 700;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    background: #3D9AE0;
+    border: none;
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .emppostjob-maincontainermainboxtop {
+        font-size: 18px;
+    }
+    .emppostjob-maininputs p {
+        font-size: 1rem;
+        padding-left: 10px;
+    }
 }
 .emppostjob-maininputsi{
     display: flex;

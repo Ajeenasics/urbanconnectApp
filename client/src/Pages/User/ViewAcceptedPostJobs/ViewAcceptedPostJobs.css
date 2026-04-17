@@ -1,6 +1,7 @@
 .userview-joblist-boxinside {
     width: 320px;
-    height: 173px;
+    min-height: fit-content;
+    /* height: 173px; */
     /* max-height: fit-content; */
     flex-shrink: 0;
     border-radius: 5px 5px 0px 0px;
@@ -14,8 +15,10 @@
 
 .userjob-view-worker {
     width: 320px;
-    min-height: 50px;
-    max-height: 50px;
+    height: fit-content;
+
+    /* min-height: 50px; */
+    /* max-height: 50px; */
     background-color: rgb(95, 211, 235);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.70);
     padding: 10px;
@@ -26,7 +29,7 @@
 
 .userjob-view-worker:hover {
     max-height: fit-content;
-    min-height: 160px; 
+    min-height: 160px;
 }
 
 .userview-head {

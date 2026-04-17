@@ -8,10 +8,9 @@ function PostJob({close}) {
     // const [cust, setCust] = useState({});
     const[data,setData]=useState({
         custid:custid,
-        workname:'',
+        jobname:'',
         category:'',
         workdetails:'',
-        
     })
 
     useEffect(() => {

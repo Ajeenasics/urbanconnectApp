@@ -1,12 +1,21 @@
 .footer-b{
   background-color: inherit !important;
     }
-    .footer-links{
+    .footer-links {
     color: #FFF;
     font-family: "Noto Sans";
     font-size: 21px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
     }
+    .footer .d-flex {
+        justify-content: center !important;
+    }
+}
     

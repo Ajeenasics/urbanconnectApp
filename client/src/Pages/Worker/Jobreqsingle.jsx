@@ -163,6 +163,22 @@ function Jobreqsingle({ close, jobId, refreshJobList }) {
             </Row>
 
             <Row className="user-info-row">
+              <Col className="user-info-label" md={4} style={{color: 'green', fontWeight: 'bold'}}>
+                AI Predicted Rate
+              </Col>
+              <Col className="user-info-coln" md={1}>
+                :
+              </Col>
+              <Col
+                className="user-info-value"
+                md={7}
+                style={{ color: 'green', fontWeight: 'bold', whiteSpace: "pre-wrap", wordBreak: "break-word" }}
+              >
+                {data?.aiprice || "Pending AI Prediction"}
+              </Col>
+            </Row>
+
+            <Row className="user-info-row">
               <Col className="user-info-label" md={5}>
                 Select work Date
               </Col>

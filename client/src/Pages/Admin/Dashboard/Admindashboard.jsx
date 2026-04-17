@@ -94,57 +94,50 @@ function Admindashboard() {
   ];
 
   return (
-    <div className='col-9 '>
-      <div className='container'>
+    <div className='col-12 col-lg-12'>
+      <div className='container-fluid'>
         <div className='admindash-main'>
           <img src={icon} alt="Overview Icon"  /> Admin OverView
         </div>
-        <div className='d-flex'>
-          <div className='col-4 admin-dash-usercount'>
+        <div className='row d-flex justify-content-center'>
+          <div className='col-12 col-md-4 admin-dash-usercount'>
             <CircularProgressbar
               value={userPercentage}
               text={`${userCount} Users`}
               className='ariel-class1'
             />
           </div>
-          <div className='col-4 admin-dash-usercount'>
+          <div className='col-12 col-md-4 admin-dash-usercount'>
             <CircularProgressbar
               value={jobSeekerPercentage}
               text={`${jobSeekerCount} Worker`}
               className='ariel-class1'
             />
           </div>
-          {/* <div className='col-4 admin-dash-usercount'>
-            <CircularProgressbar
-              value={employerPercentage}
-              text={`${employerCount} Hired`}
-              className='ariel-class1'
-            />
-          </div> */}
         </div>
-        <div className='row mx-4 ' style={{ width: "900px" }}>
-          <div className='col-3 admin-dash-functionbox'>
-            <div className='admin-dash-functioncount1 d-flex'>
-              <div className='col-3 admin-dash-function1image'>
-                <img src={applic} alt="Application" />
+        <div className='row g-4 justify-content-center' style={{ marginTop: "20px" }}>
+          <div className='col-12 col-md-5 col-lg-3 admin-dash-functionbox'>
+            <div className='admin-dash-functioncount1 d-flex p-3 align-items-center'>
+              <div className='admin-dash-function1image'>
+                <img src={applic} alt="Application" style={{ width: "40px" }} />
               </div>
-              <div className='col-6 admin-dash-function1content' style={{ textAlign: 'center' }}>
-                <p>{custjobcount} <br /> Customer Work Posts</p>
+              <div className='admin-dash-function1content flex-grow-1' style={{ textAlign: 'center' }}>
+                <p className="mb-0">{custjobcount} <br /> Customer Work Posts</p>
               </div>
             </div>
           </div>
-          <div className='col-3 admin-dash-functionbox mx-4'>
-            <div className='admin-dash-functioncount2 d-flex'>
-              <div className='col-3 admin-dash-function1image'>
-                <img src={jobs} alt="Jobs" />
+          <div className='col-12 col-md-5 col-lg-3 admin-dash-functionbox'>
+            <div className='admin-dash-functioncount2 d-flex p-3 align-items-center'>
+              <div className='admin-dash-function1image'>
+                <img src={jobs} alt="Jobs" style={{ width: "40px" }} />
               </div>
-              <div className='col-6 admin-dash-function1content' style={{ textAlign: 'center' }}>
-                <p>{empjobcount} <br />Worker Post Jobs</p>
+              <div className='admin-dash-function1content flex-grow-1' style={{ textAlign: 'center' }}>
+                <p className="mb-0">{empjobcount} <br />Worker Post Jobs</p>
               </div>
             </div>
           </div>
         </div>
-        <div className='row admindash-seconfboxuserrow mt-5'>
+        <div className='row admindash-seconfboxuserrow mt-5 justify-content-center'>
           <div className='col-4 '>
             <div className='admindash-seconfboxuser pt-2 ' style={{ textAlign: 'center' }}>
               <h3>{userCount}</h3>

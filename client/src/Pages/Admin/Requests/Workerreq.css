@@ -1,14 +1,20 @@
-.workerreq-mainbox{
-    width: 1033px;
-/* min-height: 890px; */
-max-height: max-content;
-flex-shrink: 0;
-/* border-radius: 30px; */
-background: #FFF;
-box-shadow: 4.153px 4.153px 20.764px 0.519px rgba(0, 0, 0, 0.25);
-margin-top: 40px;
-border-left: 4px solid #4DA9EC;
+.workerreq-mainbox {
+    width: 95%;
+    max-width: 1033px;
+    max-height: max-content;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 4.153px 4.153px 20.764px 0.519px rgba(0, 0, 0, 0.25);
+    margin: 40px auto;
+    border-left: 4px solid #4DA9EC;
+}
 
+@media (max-width: 768px) {
+    .workerreq-mainbox {
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
+    }
 }
 
 

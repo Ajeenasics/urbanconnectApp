@@ -122,7 +122,8 @@ function WorkerNav() {
                     alt="Manage Requests"
                     className="navbar-imgicon"
                     width="70px"
-                    height="70px"
+                    style={{ height: "65px" }}
+
                   />
                 </Dropdown.Toggle>
 

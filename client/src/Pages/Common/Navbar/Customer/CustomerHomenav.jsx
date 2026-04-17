@@ -131,7 +131,7 @@ function CustomerHomenav() {
                 View Complaint
               </Link>
             </li>
-            <li className="nav-item dropdown m-1">
+            <li className="nav-item dropdown m-1 ">
               <Dropdown align="end">
                 <Dropdown.Toggle variant="link" id="dropdown-basic">
                   <img
@@ -139,8 +139,7 @@ function CustomerHomenav() {
                     alt="Manage Requests"
                     className="navbar-imgicon text-light"
                     width="70px"
-                    height="70px"
-
+                    style={{ height: "65px" }}
                   />
                 </Dropdown.Toggle>
 

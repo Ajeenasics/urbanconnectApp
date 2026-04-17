@@ -52,7 +52,7 @@ function SelectedCandidateList() {
               {data && data.length ? (
                 data.map((a) => {
                   return (
-                    <div className="col-3 empviewpostjob-boxinside">
+                    <div className="col empviewpostjob-boxinside">
                       <div className="empviewpostjob-dashpic row ">
                         <h6 className="mt-2">
                           <span

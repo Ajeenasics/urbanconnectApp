@@ -4,20 +4,29 @@
   background-image: url('../../../Assets/Firefly 20240130134039 1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 753.6px;
+  height: auto;
+  min-height: 400px;
+  padding: 5rem 1rem;
 }
 
 
 .about-hero-heading {
   color: #FFF;
   font-family: "Noto Sans";
-  font-size: 44px;
+  font-size: clamp(24px, 5vw, 44px);
   font-style: normal;
   font-weight: 400 !important;
   line-height: normal;
-  width: 554.475px;
-  height: 211.09px;
-  flex-shrink: 0;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+    .whatnew_mainheading {
+        font-size: 32px;
+        line-height: normal;
+    }
 }
 
 .about-p{

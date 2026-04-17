@@ -5,9 +5,24 @@
     padding: 15px;
     border-radius: 5px;
   }
-  .user-profileviewmaincontent-inside{
-    min-width: 500px;
-    max-width: fit-content;
+  .user-profileviewmaincontent-inside {
+    width: 95%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+
+  @media (max-width: 576px) {
+    .user-info-row {
+        flex-direction: column;
+        padding: 5px;
+    }
+    .user-info-label, .user-info-coln, .user-info-value {
+        width: 100%;
+        text-align: center;
+    }
+    .user-info-coln {
+        display: none;
+    }
   }
   .user-profileviewmain{
     display: flex;

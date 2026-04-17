@@ -30,12 +30,51 @@
 .navbar-nav {
     align-items: flex-end;
 }
-.navbar-imgicon{
+
+.navbar-imgicon {
     border-radius: 50%;
     object-fit: cover;
 }
-.navbarli-content{
+
+.navbarli-content {
     color: white;
     background-color: rgb(53, 145, 192);
     font-weight: 800;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .navbar-px-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+        font-size: 1.25rem;
+    }
+
+    .navbar-nav {
+        align-items: flex-start;
+        padding-top: 1rem;
+    }
+
+    .nav-link {
+        padding-left: 0 !important;
+    }
+
+    .dropdown {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-brand-text {
+        font-size: 1rem;
+    }
+
+    .navbar-imgicon {
+        width: 50px !important;
+        height: 50px !important;
+    }
 }

@@ -10,9 +10,10 @@ a {
 }
 
 .viewworkstatus-modal-container {
-  height: 480px;
-  width: 500px;
-  margin-right: auto;
+  min-height: 480px;
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -21,7 +22,11 @@ a {
 
 @media (max-width: 600px) {
   .viewworkstatus-modal-container {
-    width: 90%;
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .viewworkstatus-modal-container-title {
+    margin-left: 0 !important;
   }
 }
 

@@ -22,6 +22,10 @@ const schema=mongoose.Schema({
         type: Date,
         required: true
     },
+    aiprice: {
+        type: String,
+        default: "Pending AI Prediction"
+    },
     
     jobacceptstatus:{
         type:String,
